@@ -2,9 +2,9 @@ module.exports = function(app){
 
 
 
-	app.all('/photo/*', function(req, res, next) {
+	app.all('/user/*', function(req, res, next) {
 	 
-	     console.log("fired filter");
+	     console.log("before filter fired user/ ");
 
 	 	 next();
 
