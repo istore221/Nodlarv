@@ -13,6 +13,8 @@ module.exports = (function(){
 					   var fluffy = new models.Kitten({ nickname : 'fluffy' });
 	   				   var gayani = new models.Owner({ firstname : 'Gayani', lastname : 'Perera' , age : 24 });
 
+	   				   fluffy.save(null); // 
+	   				   gayani.save(null); //
 
 						res.render('index/home',{
 
